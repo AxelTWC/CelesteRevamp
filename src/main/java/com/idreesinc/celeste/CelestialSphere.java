@@ -44,6 +44,20 @@ public class CelestialSphere {
         double speed = new Random().nextDouble() * 2 + 0.75;
         location.getWorld().spawnParticle(Particle.FIREWORKS_SPARK, starLocation, 0, direction.getX(),
                 direction.getY(), direction.getZ(), speed, null, true);
+        location.getWorld().spawnParticle(Particle.FIREWORKS_SPARK, starLocation, 0, direction.getX(),
+                direction.getY(), direction.getZ(), speed, null, true);
+        location.getWorld().spawnParticle(Particle.FIREWORKS_SPARK, starLocation, 0, direction.getX(),
+                direction.getY(), direction.getZ(), speed, null, true);
+        location.getWorld().spawnParticle(Particle.FIREWORKS_SPARK, starLocation, 0, direction.getX(),
+                direction.getY(), direction.getZ(), speed, null, true);
+        location.getWorld().spawnParticle(Particle.FIREWORKS_SPARK, starLocation, 0, direction.getX(),
+                direction.getY(), direction.getZ(), speed, null, true);
+        location.getWorld().spawnParticle(Particle.END_ROD, starLocation, 0, direction.getX(),
+                direction.getY(), direction.getZ(), speed, null, true);
+        location.getWorld().spawnParticle(Particle.END_ROD, starLocation, 0, direction.getX(),
+                direction.getY(), direction.getZ(), speed, null, true);
+        location.getWorld().spawnParticle(Particle.END_ROD, starLocation, 0, direction.getX(),
+                direction.getY(), direction.getZ(), speed, null, true);
         if (new Random().nextDouble() >= 0.5) {
             location.getWorld().spawnParticle(Particle.EXPLOSION_NORMAL, starLocation, 0, direction.getX(),
                     direction.getY(), direction.getZ(), speed, null, true);
